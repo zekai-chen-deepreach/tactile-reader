@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.eggs/
+build/
+dist/
+.venv/
+.env
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Data — captures and crop outputs are big and not part of the source tree
+examples/*/rgb/
+examples/*/mono_left/
+examples/*/mono_right/
+examples/*/*.parquet
+*_cropped/
+*_cropped_*/
+
+# Rerun
+*.rrd
